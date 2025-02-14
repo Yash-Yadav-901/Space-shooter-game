@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.main {
+
+    height: 80vh;
+    background: black;
+    /* background-image: url("wp7872974.jpg"); */
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    font-size: 20px;
+}
+
+.body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.ship {
+    width: 130px;
+    height: px;
+    position: absolute;
+    top: 70%;
+
+    filter: drop-shadow(3px 3px 8px rgb(2, 179, 255));
+    background-color: rgb(217, 115, 115);
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.ship1 {
+    width: 130px;
+    position: absolute;
+
+
+}
+
+.controles {
+    width: 100vw;
+    height: 20vh;
+    background-color: rgb(1, 5, 38);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    z-index: 10;
+
+}
+
+.left {
+    background: none;
+    border: none;
+    filter: drop-shadow(2px 2px 5px black);
+
+}
+
+
+.right {
+    background: none;
+    border: none;
+    filter: drop-shadow(2px 2px 5px black);
+
+}
+
+
+
+
+.both {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Press Start 2P", serif;
+    font-weight: 400;
+    font-style: normal;
+
+
+
+    color: white;
+
+}
+
+.both img {
+    width: 35px;
+
+}
+
+.both .inner-both {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+.points {
+    width: 100px;
+    padding-right: 20px;
+
+    /* background-color: rgb(0, 17, 255); */
+    text-align: center;
+
+
+}
+
+.both .inner-both-point {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.both .inner-both-point img {
+    width: 60px;
+
+
+}
+
+.health {
+    width: 100px;
+    /* background-color: rgb(255, 0, 0); */
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+@media screen and (max-width="1200px") {
+    body {
+        max-width: 1200px;
+
+    }
+}
