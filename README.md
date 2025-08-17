@@ -56,7 +56,8 @@ README.md
 
 **Screenshots:**
 
-[Insert screenshots of the website in different states, e.g., with the ship moving left and right, with different CSS styles applied]
+<img width="1919" height="966" alt="image" src="https://github.com/user-attachments/assets/004ad957-b063-463c-a416-f17ed1bca487" />
+
 
 **API Reference:**
 
